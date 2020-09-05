@@ -10,6 +10,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "4.13.3",
     "request": "^2.74.0"
   },
@@ -23,9 +24,7 @@
     "express"
   ],
   "license": "MIT",
-  "bugs": {
-    
-  },
+  "bugs": {},
   "homepage": "",
   "author": "Shivansh Sharma"
 }

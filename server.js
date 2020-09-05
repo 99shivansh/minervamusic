@@ -1,9 +1,13 @@
 var request = require('request');
 var express = require('express');
 var app = express();
-
+const path =require('path');
+const cors=require('cors');
 app.set('port', process.env.PORT || 8080);
+   //cors middleware
+   app.use(cors());
 
+   app.use(express.static(path.join(__dirname,'public')));
 app.get('/token', function(req, resp) {
   resp.header('Access-Control-Allow-Origin', '*');
   resp.header('Access-Control-Allow-Headers', 'X-Requested-With');
