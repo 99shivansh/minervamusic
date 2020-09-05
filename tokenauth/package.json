@@ -1,0 +1,31 @@
+{
+  "name": "tokenauth",
+  "version": "0.0.1",
+  "description": "A simple Node.js app that exposes an access token to use the Spotify Web API",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "request": "^2.74.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    
+  },
+  "homepage": "",
+  "author": "Shivansh Sharma"
+}
