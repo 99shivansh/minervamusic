@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "A simple Node.js app that exposes an access token to use the Spotify Web API",
   
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
