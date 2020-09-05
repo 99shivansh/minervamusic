@@ -2,7 +2,7 @@ var request = require('request');
 var express = require('express');
 var app = express();
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 
 app.get('/token', function(req, resp) {
   resp.header('Access-Control-Allow-Origin', '*');

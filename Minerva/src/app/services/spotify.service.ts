@@ -29,7 +29,7 @@ export class SpotifyService {
   }
   token()
   {
-    return this.http.get('http://localhost:3000/token');
+    return this.http.get('token');
   }
   getQuery(query: string) {
     
