@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"
 
 /***/ }),
 
@@ -469,7 +469,7 @@ var NavbarComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdGFyamV0YXMvdGFyamV0YXMuY29tcG9uZW50LmNzcyJ9 */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjb21wb25lbnRzL3RhcmpldGFzL3RhcmpldGFzLmNvbXBvbmVudC5jc3MifQ== */"
 
 /***/ }),
 
@@ -650,7 +650,7 @@ var SpotifyService = /** @class */ (function () {
         });
     };
     SpotifyService.prototype.token = function () {
-        return this.http.get('token');
+        return this.http.get('https://minervabackend.onrender.com/token');
     };
     SpotifyService.prototype.getQuery = function (query) {
         var url = "https://api.spotify.com/v1/" + query;
@@ -756,7 +756,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/shivansh/Desktop/minervamusic/Minerva/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/shivanshsharma/Desktop/minervamusic/Minerva/src/main.ts */"./src/main.ts");
 
 
 /***/ })
