@@ -29,7 +29,7 @@ export class SpotifyService {
   }
   token()
   {
-    return this.http.get('token');
+    return this.http.get('https://minervabackend.onrender.com/token');
   }
   getQuery(query: string) {
     
